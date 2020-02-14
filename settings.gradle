@@ -1,1 +1,1 @@
-include ':app', ':myview', ':relativelayout', ':uicontent'
+include ':app', ':myview', ':relativelayout', ':uicontent', ':activityexchangedata'
