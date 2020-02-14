@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:columnCount="6"
+    tools:context="com.example.uicontent.MainActivity">
+
+    <TextView
+        android:id="@+id/testView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="180dp"
+        android:text="Hello World hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh!"
+        android:textColor="#16476B"
+        android:layout_gravity="end"
+        android:layout_column="1"
+        android:layout_columnSpan="4"
+        android:layout_row="0"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="20dp"
+        />
+    <ImageView
+        android:id="@+id/ico1"
+        android:src="@drawable/ico2"
+        android:layout_columnSpan="1"
+        android:layout_column="5"
+        android:layout_gravity="top"
+        android:layout_row="0"
+        />
+    <EditText
+        android:id="@+id/testView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="180dp"
+        android:textColor="#16476B"
+        android:layout_gravity="end"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_row="1"
+        android:inputType="textMultiLine"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_row="1"
+        android:onClick="onClick"
+        android:text="Button" />
+
+</GridLayout>
